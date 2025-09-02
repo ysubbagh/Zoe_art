@@ -9,7 +9,7 @@
 </script>
 
 <nav class="nav">
-  <div class="logo">{artist}</div>
+  <a class="logo" href="/">{artist}</a>
   <ul>
     {#each navLinks as link}
       <li><a href={link.href}>{link.name}</a></li>
